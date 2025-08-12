@@ -172,7 +172,7 @@ export default function Home() {
                 <span className={`text-lg font-medium transition-colors ${!isAnnual ? 'text-black' : 'text-gray-600'}`}>Monthly</span>
                 <button 
                   onClick={() => setIsAnnual(!isAnnual)}
-                  className="relative inline-flex h-8 w-16 items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
+                  className="relative inline-flex h-8 w-16 items-center rounded-full bg-gray-200 transition-colors focus:outline-none"
                 >
                   <span className={`inline-block h-6 w-6 transform rounded-full bg-white transition-transform ${isAnnual ? 'translate-x-8' : 'translate-x-1'}`}></span>
                 </button>
