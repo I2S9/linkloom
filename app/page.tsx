@@ -91,16 +91,13 @@ export default function Home() {
           
           {/* Barre de recherche géante avec bords complètement arrondis */}
           <div className="relative w-full max-w-3xl mx-auto mb-12 lg:mb-16 px-4">
-            <div className="relative">
-              {/* Contour gris clair simple */}
-              <div className="absolute inset-0 rounded-full border-2 border-gray-300 bg-white"></div>
-              
+            <div className="rainbow-border">
               <input
                 type="text"
                 placeholder={displayText}
-                className="relative w-full px-8 lg:px-10 py-4 lg:py-5 text-lg lg:text-xl border-2 border-gray-300 rounded-full focus:outline-none focus:border-gray-300 transition-colors pr-32 bg-white"
+                className="w-full px-8 lg:px-10 py-4 lg:py-5 text-lg lg:text-xl border-2 border-transparent rounded-full focus:outline-none focus:border-transparent transition-colors pr-32 bg-white"
               />
-              <button className="absolute right-4 top-1/2 transform -translate-y-1/2 w-14 h-14 bg-black text-white rounded-full hover:bg-gray-800 transition-colors flex items-center justify-center z-10">
+              <button className="absolute right-6 top-1/2 transform -translate-y-1/2 w-14 h-14 bg-black text-white rounded-full hover:bg-gray-800 transition-colors flex items-center justify-center z-10">
                 <svg className="w-6 h-6 transform rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
