@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'LinkLoom - Votre site web moderne',
+  title: 'LinkedLoom',
   description: 'Un site web créé avec Next.js, Tailwind CSS et TypeScript',
 }
 
