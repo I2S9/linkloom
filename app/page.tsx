@@ -161,7 +161,7 @@ export default function Home() {
       </div>
 
         {/* Pricing Section */}
-        <div className="py-24">
+        <div id="pricing" className="py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-6xl font-medium text-black mb-4" style={{ fontFamily: 'SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif' }}>Pricing</h2>
@@ -353,7 +353,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold mb-4">Product</h3>
                 <ul className="space-y-2 text-gray-300">
                   <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
-                  <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
+                  <li><a href="#pricing" className="hover:text-white transition-colors">Pricing</a></li>
                   <li><a href="#" className="hover:text-white transition-colors">API</a></li>
                 </ul>
               </div>
